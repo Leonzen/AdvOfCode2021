@@ -25,7 +25,7 @@ fileLines.each do |fl|
             end
         end
     end
-    correction.push(lastOpen) if lastOpen.size > 1
+    correction.push(lastOpen) if lastOpen.size >= 1
 end
 
 for i in 0..correction.size-1 do
